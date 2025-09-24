@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from bike_calc import calc_bike_rentals
+from webapp.bike_calc import calc_bike_rentals
 
 app = Flask(__name__)
 

@@ -25,7 +25,7 @@ def calc_bike_rentals(holiday, season, temp):
     + (temp * COEF_TEMP)
     if rental_counts < 0:
         rental_counts = 0
-    return rental_counts
+    return int(rental_counts)
 
 if __name__ == "__main__":
     holiday = input("Is it a holiday? (1 for yes, 0 for no): ") == 1
